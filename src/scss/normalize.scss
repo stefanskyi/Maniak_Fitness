@@ -1,0 +1,166 @@
+/*
+ * Normalize.scss
+ *
+ * A modern, HTML5-ready alternative to CSS resets.
+ *
+ * Normalize.scss is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.
+ * It precisely targets only the styles that need normalizing.
+ *
+ * License: MIT
+ *
+ */
+
+/* Document Elements */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+body {
+	color: #333;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: .83em;
+}
+
+h6 {
+	font-size: .67em;
+}
+
+/* Lists */
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+/* Links */
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Images */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Tables */
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+/* Inputs */
+
+input,
+textarea,
+select {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: inherit;
+}
+
+input,
+textarea {
+	width: 100%;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+/* Buttons */
+
+button {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+/* Forms */
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+/* Miscellaneous */
+
+address {
+	margin-top: 1em;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+pre {
+	font-family: monospace;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}

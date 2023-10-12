@@ -1,0 +1,39 @@
+<header class="header">
+	<div class="header__head">
+		<div class="header__head-desc">
+			<div class="header__head-left">
+				<a href="#" class="header__logo">
+					<img src="@img/header_logo.svg" alt="logo">
+				</a>
+				<div class="header__search">
+					<form action="/search" method="get">
+						<input type="search" name="q" placeholder="Pincha para buscar">
+						<img src="@img/search-24px 1.svg" alt="">
+					</form>
+				</div>
+			</div>
+			<div class="header__head-right">
+				<a href="#" class="header__account">
+					<img src="@img/person-24px 1.svg" alt="account">
+				</a>
+				<a href="#" class="header__cart">
+					<img src="@img/shopping_cart-24px 1.svg" alt="cart">
+					<span>1</span>
+				</a>
+			</div>
+		</div>
+		<div class="header__search header__search-mob">
+			<form action="/search" method="get">
+				<input type="search" name="q" placeholder="Pincha para buscar">
+				<img src="@img/search-24px 1.svg" alt="">
+			</form>
+		</div>
+	</div>
+	<div class="header__body">
+		<picture>
+			<source srcset="@img/header_img.jpeg" type="image/jpeg" media="(min-width:769px)">
+			<source srcset="@img/header_img_mob.jpg" type="image/jpeg" media="(max-width:768px)">
+			<img src="@img/header_img.jpeg" alt="img">
+		</picture>
+	</div>
+</header>
